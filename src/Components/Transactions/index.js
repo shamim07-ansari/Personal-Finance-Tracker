@@ -18,26 +18,31 @@ const Transactions = ({ transactions, addTransaction, fetchTransactions }) => {
             title: "Name",
             dataIndex: "name",
             key: "name",
+            width: 150,
         },
         {
             title: "Amount",
             dataIndex: "amount",
             key: "amount",
+            width: 150,
         },
         {
             title: "Tag",
             dataIndex: "tag",
             key: "tag",
+            width: 150,
         },
         {
             title: "Type",
             dataIndex: "type",
             key: "type",
+            width: 150,
         },
         {
             title: "Date",
             dataIndex: "date",
             key: "date",
+            width: 150,
         },
     ];
 
