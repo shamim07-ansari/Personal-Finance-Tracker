@@ -1,0 +1,22 @@
+.charts-wrapper {
+    display: flex;
+    height: auto;
+    padding: 2rem;
+    justify-content: space-between;
+    margin: 2rem;
+    gap: 30px;
+}
+
+.charts-line {
+    width: 60%;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    padding: 2rem;
+}
+
+.charts-pie {
+    width: 40%;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    padding: 2rem;
+}
